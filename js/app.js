@@ -10,7 +10,7 @@ let loadCeagoti = () => {
 
 // cetagori name show
 let cetagoriName = (cetagoris) => {
-  // console.log(cetagoris)
+  
   
   let cetagoriName = document.getElementById('cetagori')
   cetagoris.forEach(cetagori => {
@@ -42,7 +42,7 @@ let loadData = (category_id) => {
 
 
 let newsDisplay = newses => {
-  // console.log(newses)
+  
   // news total count
   
   let totalNews = document.getElementById('total-news-count')
